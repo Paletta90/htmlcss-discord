@@ -1,10 +1,11 @@
 .bg-firstsection{
+    height: 500px;
     position: relative;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.bg-img1{
+/* .bg-img1{
     background-image: url("../img/item1.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,12 +24,12 @@
     background-image: url("../img/item4-big.svg");
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 .bg-img5{
     background-image: url("../img/stars.svg");
     background-size: 5%;
     background-size: contain;
-}
+} 
 .bg-lightblue{
     background-color: #8ea1e1;
 }

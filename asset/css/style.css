@@ -42,8 +42,6 @@ header{
 .block-right span{
     display: inline-block;
 }
-
-
 .navbar ul li{
     display: inline-block;
     padding: 10px 10px;
@@ -51,12 +49,14 @@ header{
 .navbar ul li a{
     padding: 20px;
 }
-
 ul li:hover a{
     text-decoration: underline;
 }
+.block-right:hover span{
+    color:#698ef0;
+}
 section{
-    height: 500px;
+    width: 100%;
 }
 
 .block-single{
@@ -85,45 +85,32 @@ section{
 .container-button .label:hover{
     color: #698ef0;
 }
-.blocka{
-    float: left;
-    width: 40%;
-    height: calc(100% - 100px);
-    margin: 50px 5% 50px 10%;
-}
-.blockb{
-    float: left;
-    width: 25%;
-    /* border: 1px solid black; */
-    /* height: calc(100% - 100px); */
-    margin: 50px 10% 50px 5%;
-}
-.blockc{
-    float: left;
-    width: 20%;
-    /* height: calc(100% - 100px); */
-    margin: 50px 5% 50px 10%;
-}
-.blockd{
-    float: left;
-    width: 40%;
-    height: calc(100% - 100px);
-    margin: 50px 10% 50px 5%;
-}
-.last-block{
+.container-section{
     width: 80%;
-    height: 1000px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 50px 0;
 }
+.block-image{
+    float:left;
+    width: 60%;
+}
+.block-title{
+    float: left;
+    width: calc(40% - 100px);
+    margin: 0 50px;
+    padding: 30px 0;
+}
+
+
+
 .last-block1{
     width: 100%;
     /* height: calc(20% - 20px); */
     margin: 10px 0;
 }
-.last-block2{
+.block-imagebig{
     width: 100%;
-    height: calc(60% - 10px);
-    margin-bottom: 10px;
+    border: 2px solid black;
 }
 .last-block3{
     width: 50%;
@@ -133,6 +120,8 @@ section{
 .last-block3 span:hover{
     color: black;
 }
+
+
 footer{
     width: 100%;
     height: 500px;
