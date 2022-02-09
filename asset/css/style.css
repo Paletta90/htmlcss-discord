@@ -98,13 +98,13 @@ section{
 }
 .blockc{
     float: left;
-    width: 40%;
-    height: calc(100% - 100px);
+    width: 20%;
+    /* height: calc(100% - 100px); */
     margin: 50px 5% 50px 10%;
 }
 .blockd{
     float: left;
-    width: 30%;
+    width: 40%;
     height: calc(100% - 100px);
     margin: 50px 10% 50px 5%;
 }
