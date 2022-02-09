@@ -8,7 +8,13 @@
     display: table;
     clear: both;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
 /* Header */
 header{
     width: 100%;
@@ -37,12 +43,9 @@ header{
     display: inline-block;
 }
 .navbar ul li{
-    list-style: none;
     display: inline-block;
 }
 .navbar ul li a{
-    text-decoration: none;
-    color: white;
     padding: 20px;
 }
 .button-login{
@@ -50,7 +53,7 @@ header{
     text-align: center;
     background-color: white;
 }
-.block-center .navbar ul li:hover a{
+ul li:hover a{
     text-decoration: underline;
 }
 section{
@@ -81,7 +84,7 @@ section{
     text-align: center;
 }
 .container-button .label:hover{
-    color: blue;
+    color: #698ef0;
 }
 .blocka{
     float: left;
@@ -108,18 +111,6 @@ section{
     height: calc(100% - 100px);
     margin: 50px 10% 50px 5%;
 }
-/* .block1{
-    float: left;
-    width: 40%;
-    height: calc(100% - 100px);
-    margin: 50px 5% 50px 10%;
-}
-.block2{
-    float: left;
-    width: 30%;
-    height: calc(100% - 100px);
-    margin: 50px 10% 50px 5%;
-} */
 .last-block{
     width: 80%;
     height: 1000px;
@@ -145,7 +136,7 @@ section{
 }
 footer{
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color:#23272a;
     position: relative;
 }
@@ -156,4 +147,34 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+}
+.container-flag a img{
+    vertical-align: middle;
+}
+.column1{
+    width: 20%;
+    margin-right: 20px;
+    float: left;
+}
+.column{
+    width: calc(17.5% - 10px);
+    margin-right: 20px;
+    float: left;
+}
+.column1 a img{
+    margin-right: 20px;
+}
+
+.column ul li{
+    margin-bottom: 5px;
+}
+
+.container-final{
+    width: 100%;
+}
+.container-final img{
+    float: left;
+}
+.container-final span{
+    float:right
 }
