@@ -4,14 +4,16 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.bg-img1{
+    background-image: url("../img/item1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .bg-orange{
     background-color: orange;
 }
 .bg-yellow{
     background-color: yellow;
-}
-.bg-green{
-    background-color: green;
 }
 .bg-blue{
     background-color: blue;
