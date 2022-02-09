@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/utility.css">
     <link rel="stylesheet" href="./asset/css/background.css">
     <title>Discord</title>
 </head>
@@ -13,7 +14,40 @@
 <body>
     <!-- Header -->
     <header>
-        <div bloc>
+        <div class="container-header clearfix">
+            <!-- Logo -->
+            <div class="block-left">
+                <img src="./asset/img/logo.svg" alt="Logo Discord">
+            </div>
+
+            <!-- Barra di opzioni per la navigazione nel sito -->
+            <div class="block-center">
+                <nav aria-label="Opzioni navigazione nel sito" class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Scarica</a>
+                        </li>
+                        <li>
+                            <a href="#">Perchè Discord</a>
+                        </li>
+                        <li>
+                            <a href="#">Nitro</a>
+                        </li>
+                        <li>
+                            <a href="#">Sicurezza</a>
+                        </li>
+                        <li>
+                            <a href="#">Assistenza</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Tasto accedi -->
+            <div class="block-right">
+                <span class="label button-login">Accedi</span>
+            </div>
+
         </div>
     </header>
 
