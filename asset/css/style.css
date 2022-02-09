@@ -108,7 +108,7 @@ section{
     height: calc(100% - 100px);
     margin: 50px 10% 50px 5%;
 }
-.block1{
+/* .block1{
     float: left;
     width: 40%;
     height: calc(100% - 100px);
@@ -119,14 +119,15 @@ section{
     width: 30%;
     height: calc(100% - 100px);
     margin: 50px 10% 50px 5%;
-}
+} */
 .last-block{
     width: 80%;
+    height: 1000px;
     margin: auto;
 }
 .last-block1{
     width: 100%;
-    height: calc(20% - 20px);
+    /* height: calc(20% - 20px); */
     margin: 10px 0;
 }
 .last-block2{
@@ -135,8 +136,12 @@ section{
     margin-bottom: 10px;
 }
 .last-block3{
-    width: 100%;
-    height: 20%;
+    width: 50%;
+    margin: 0 auto;
+    /* height: 5%; */
+}
+.last-block3 span:hover{
+    color: black;
 }
 footer{
     width: 100%;

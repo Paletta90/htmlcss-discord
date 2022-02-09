@@ -19,6 +19,19 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.bg-img4{
+    background-image: url("../img/item4-big.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img5{
+    background-image: url("../img/stars.svg");
+    background-size: 5%;
+    background-size: contain;
+}
+.bg-lightblue{
+    background-color: #8ea1e1;
+}
 .bg-orange{
     background-color: orange;
 }
