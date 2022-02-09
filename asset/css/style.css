@@ -33,9 +33,6 @@ header{
     width: 80%;
     margin: 0 auto;
 }
-.block-left img{
-    /* vertical-align: middle; */
-}
 .navbar{
     display: inline-block;
 }
@@ -53,6 +50,10 @@ header{
     text-align: center;
     background-color: white;
 }
+.block-center .navbar ul li:hover a{
+    text-decoration: underline;
+}
+/* Prima Section */
 section{
     height: 500px;
 }
@@ -64,6 +65,21 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+.container-button{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container-button span{
+    display: inline-block;
+    margin: 0 20px;
+}
+.block-single h2,p{
+    text-align: center;
+}
+.container-button .label:hover{
+    color: blue;
 }
 .block1{
     float: left;

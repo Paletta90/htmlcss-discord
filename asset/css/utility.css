@@ -1,7 +1,23 @@
+.m-y-50{
+    margin-bottom: 50px;
+}
+.m-y-20{
+    margin-bottom: 20px;
+}
 .f-white{
     color: white;
 }
+.f-black{
+    color: black;
+}
+.f-big{
+    font-size: 3em;
+    font-weight: 1000;
+}
+.f-medium{
+    font-size: 1.5em;
+}
 .label{
-    padding: 5px 15px;
-    border-radius: 15px;
+    padding: 10px 15px;
+    border-radius: 25px;
 }

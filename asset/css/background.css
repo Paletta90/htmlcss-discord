@@ -1,6 +1,8 @@
-.bg-red{
-    background-color: red;
+.bg-firstsection{
     position: relative;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bg-orange{
     background-color: orange;
@@ -16,4 +18,10 @@
 }
 .bg-violet{
     background-color: violet;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
 }
