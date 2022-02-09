@@ -19,6 +19,10 @@ li{
 header{
     width: 100%;
     background-color: #3161e0;
+}
+.container-header{
+    width: 80%;
+    margin: 0 auto;
     padding: 10px 0;
 }
 .block-left{
@@ -26,8 +30,8 @@ header{
     float: left;
 }
 .block-center{
-    width: calc(60% - 100px);
-    margin: 0 50px;
+    width: calc(60% - 30px);
+    margin: 0 15px;
     float: left;
 }
 .block-right{
@@ -35,24 +39,19 @@ header{
     float: left;
     text-align: center;
 }
-.container-header{
-    width: 80%;
-    margin: 0 auto;
-}
-.navbar{
+.block-right span{
     display: inline-block;
 }
+
+
 .navbar ul li{
     display: inline-block;
+    padding: 10px 10px;
 }
 .navbar ul li a{
     padding: 20px;
 }
-.button-login{
-    /* display: inline-block; */
-    text-align: center;
-    background-color: white;
-}
+
 ul li:hover a{
     text-decoration: underline;
 }
