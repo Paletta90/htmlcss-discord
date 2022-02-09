@@ -94,6 +94,9 @@ section{
     float:left;
     width: 60%;
 }
+.block-image img{
+    width: 100%;
+}
 .block-title{
     float: left;
     width: calc(40% - 100px);
