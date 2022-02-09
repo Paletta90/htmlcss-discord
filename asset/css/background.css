@@ -9,6 +9,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.bg-img3{
+    background-image: url("../img/item3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .bg-orange{
     background-color: orange;
 }
