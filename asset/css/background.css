@@ -4,46 +4,20 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-/* .bg-img1{
-    background-image: url("../img/item1.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.bg-img2{
-    background-image: url("../img/item2.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.bg-img3{
-    background-image: url("../img/item3.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.bg-img4{
-    background-image: url("../img/item4-big.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
 .bg-img5{
     display: inline-block;
     padding: 25px 25px;
     background-image: url("../img/stars.svg");
     background-size: contain;
 } 
+.bg-lightgrey{
+    background-color: #acacac;
+}
 .bg-lightblue{
     background-color: #8ea1e1;
 }
-.bg-orange{
-    background-color: orange;
-}
-.bg-yellow{
-    background-color: yellow;
-}
 .bg-blue{
     background-color: blue;
-}
-.bg-violet{
-    background-color: violet;
 }
 .bg-white{
     background-color: white;
