@@ -58,33 +58,26 @@ ul li:hover a{
 section{
     width: 100%;
 }
-
-.block-single{
-    position: absolute;
-    width: 60%;
-    height: 300px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.container-button{
+/* Prima section */
+.container-text{
     width: 100%;
+    text-align: center;
+    width: 60%;
     margin: 0 auto;
-    text-align: center;
+    padding: 100px 0;
 }
-.container-button span{
+.container-text span{
     display: inline-block;
-    margin: 0 20px;
 }
-.block-single h2{
-    text-align: center;
+.container-text span span{
+    font-size: 85%;
+    padding-right: 5px;
+    font-weight: 1000;
 }
-.block-single p{
-    text-align: center;
+.container-text div span:hover{
+    color: #8ea1e1;
 }
-.container-button .label:hover{
-    color: #698ef0;
-}
+/* Seconda, Terza, Quarta section */
 .container-section{
     width: 80%;
     margin: 0 auto;

@@ -1,8 +1,7 @@
-.bg-firstsection{
-    height: 500px;
-    position: relative;
+.bg-jumbo{
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 /* .bg-img1{
