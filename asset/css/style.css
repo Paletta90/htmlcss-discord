@@ -130,7 +130,7 @@ footer{
     float: left;
     margin-left: 10px;
 }
-.column1 a img{
+.column1>a>img{
     margin-right: 20px;
 }
 
